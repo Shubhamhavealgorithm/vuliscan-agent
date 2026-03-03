@@ -1,0 +1,8 @@
+You are working on VULISCAN agent, a Python-focused vulnerability finder and code risk analyser.
+
+Rules:
+- Never commit secrets. Use .env (ignored) and .env.example.
+- VULISCAN outputs MUST be valid JSON matching agent/schemas.py.
+- Focus on security risks: injection, auth, secrets, crypto misuse, RCE, SSRF, path traversal, deserialization, insecure config.
+- Prefer high-precision findings with evidence over many weak guesses.
+- Any prompt changes must be evaluated by running: python eval/run_eval.py
